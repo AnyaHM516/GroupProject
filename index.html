@@ -31,33 +31,83 @@
             </div>
           </nav>
     </header>
-    <div class="intro-gif">
-      <img src="https://thumbs.gfycat.com/ImmenseYawningHerculesbeetle-size_restricted.gif" width="100%" height="300px">
+    
+  <div class="intro-text">
+    <h2> welcome to our star wars fan page </h2>
+  </div>
+  
+  <div class="slideshow-container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <a href="lightsabers.html">
+        <img src="https://static.wikia.nocookie.net/starwars/images/c/c3/Rey_vs_Kylo_Ren.png/revision/latest?cb=20160303172711" height="400px" class="center" alt="Lightsabers">
+      </a>
+      <div class="text">Lightsabers</div>
     </div>
-    <div class="intro-text">
-      <h2> welcome to our star wars fan page </h2>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <a href="planets.html">
+        <img src="https://sm.ign.com/ign_in/gallery/e/every-plan/every-planet-and-location-in-star-wars-battlefront-2s-multip_te1n.jpg" height="400px" class="center" alt="Planets">
+      </a>
+      <div class="text">Planets</div>
     </div>
-    <!-- Can't figure out the javascript for the carousel, will work on later after we do javascript in the lectures-->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://static.wikia.nocookie.net/starwars/images/c/c3/Rey_vs_Kylo_Ren.png/revision/latest?cb=20160303172711" class="d-block w-100" alt="Lightsabers">
-        </div>
-        <div class="carousel-item">
-          <img src="https://sm.ign.com/ign_in/gallery/e/every-plan/every-planet-and-location-in-star-wars-battlefront-2s-multip_te1n.jpg" class="d-block w-100" alt="Planets">
-        </div>
-        <div class="carousel-item">
-          <img src="https://cdn.mos.cms.futurecdn.net/6M9VqjgZLUsP23R4nC8Kb3.jpg" class="d-block w-100" alt="The Jedi">
-        </div>
-        <div class="carousel-item">
-          <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/03/Star-Wars-Sith-Return-Featured.jpg" class="d-block w-100" alt="The Sith">
-        </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <a href="jedi.html">
+        <img src="https://cdn.mos.cms.futurecdn.net/6M9VqjgZLUsP23R4nC8Kb3.jpg" height="400px" class="center" alt="The Jedi">
+      </a>
+      <div class="text">The Jedi</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <a href="sith.html">
+        <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/03/Star-Wars-Sith-Return-Featured.jpg" height="400px" class="center" alt="The Sith">
+      </a>
+      <div class="text">The Sith</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <div class="dotbar">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  
+  <div class="about">
+    <p>Click on the images above to learn more about all things Star Wars!</p>
+    <p></p>
+    <p>This page is a fan made website about the Star Wars universe. We produce content about the lore, upcoming movies and series, and our theories about what's to come next! </p>
+    <p>For more, find us on social media:</p>
+    <div class="social bar">
+      <img src="https://www.seekpng.com/png/full/138-1383474_insta-icon-white-instagram-logo-white-black-background.png" height="25px" width="25px">
+      <img src="https://icon-library.com/images/facebook-icon-transparent-png/facebook-icon-transparent-png-22.jpg" height="25px" width="25px">
+      <img src="data:image/png;base64,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" height="25px" width="25px">
+    </div>
+  </div>
+
+  <div class="intro-gif">
+    <img src="https://thumbs.gfycat.com/ImmenseYawningHerculesbeetle-size_restricted.gif" width="100%" height="300px">
+  </div>
+
+  <div class="subscribe">
+    <p> Want more? Sign up to our monthly newsletter with exclusive interviews, offers and give aways!</p>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address:</label>
+        <input type="email" class="emailsub" id="exampleInputEmail1" width="50%" background-color="black">
       </div>
-    </div>
-    <div class="subscribe">
-      
-    </div>
-    <footer>
-    </footer>
+      <img class="lightsaberunderline" src="https://bg3-blog.s3.amazonaws.com/blog/wp-content/uploads/2015/11/lightsaber.jpg">
+      <button type="submit" class="btn btn-dark" style="margin: 10px;">Submit</button>
+      <small class="form-text text-muted" style="margin-top: 5px;">By signing up you consent to us using your email to send you infomation and offers. You can unsubscribe at any time.</small>
+    </form>
+  </div>
+
+  <script src="app.js"> </script>
 </body>
 </html>
