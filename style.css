@@ -218,3 +218,29 @@ td, th{
     border-color: #1b1b1b;
     padding: 10px;
 }
+
+.infojedisithformat{
+  color:gray;
+  background-color: black;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.jedisithbox{
+  background-color: black;
+  color:gray;
+  width: 100%;
+  text-align: right;
+  margin-top:20px;
+}
+
+.jedisithinfobox{
+  background-color: #1b1b1b;
+  color:gray;
+  width: 80%;
+  text-align: left;
+  padding: 40px;
+}
