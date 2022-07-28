@@ -3,9 +3,14 @@
     src: url('starjedi/Starjhol.ttf') format('truetype');
 }
 
-
 nav {
     background-color: black;
+}
+
+.dragme {
+  position:absolute;
+  width: 40px;
+  height: 70px;
 }
 
 .intro-gif {
@@ -188,7 +193,7 @@ nav {
 .infobox{
     background-color: #1b1b1b;
     color: gray;
-    height: 300px;
+    height: 320px;
     width: 260px;
     text-align: center;
     padding: 20px;
@@ -243,4 +248,12 @@ td, th{
   width: 80%;
   text-align: left;
   padding: 40px;
+}
+
+.planetview{
+  display: none;
+  position: absolute;
+  height:395px;
+  width:83.5%;
+  align-self:center;
 }
